@@ -1,0 +1,15 @@
+3. dcpromo
+4.
+5.
+6. renaming site configuration
+7. new upn suffix
+
+
+
+MS:
+
+1. enabling remote management on core server
+2. set ip
+3. set hostname
+4. 
+5. join domain

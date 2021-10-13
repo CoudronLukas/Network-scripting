@@ -12,7 +12,7 @@ $adapter | Set-DnsClientServerAddress -ServerAddresses $DNS
 # Reverse DNS zone toevoegen
 #
 Add-DnsServerPrimaryZone -NetworkID “192.168.1.0/24” -ReplicationScope “Domain”
-
+Register-DnsClient
 
 #
 # Controleren of reverse DNS zone is toegevoegd

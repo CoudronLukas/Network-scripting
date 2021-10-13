@@ -1,7 +1,7 @@
 ﻿#
 # Statisch IP adres instellen
 #
-$IP = "192.168.1.3"
+$IP = "192.168.1.4"
 $MaskBits = 24 # This means subnet mask = 255.255.255.0
 $Gateway = "192.168.1.1"
 $Dns = "172.20.0.2"
