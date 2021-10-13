@@ -2,7 +2,7 @@
 Import-Module ActiveDirectory
   
 # Store the data from NewUsersFinal.csv in the $ADUsers variable
-$ADUsers = Import-Csv C:\temp\NewUsersFinal.csv -Delimiter ";" #Pad Aanpassen!!!
+$ADUsers = Import-Csv C:\Users\Administrator\Documents\user_accounts.csv -Delimiter ";" #Pad Aanpassen!!!
 
 # Define UPN
 $UPN = "intranet.mijnschool.be"

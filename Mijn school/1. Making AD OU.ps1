@@ -1,7 +1,7 @@
 Import-Module ActiveDirectory
   
 # Store the data from NewUsersFinal.csv in the $ListOU variable
-$ListOU = Import-Csv C:\temp\NewUsersFinal.csv -Delimiter ";" #Pad Aanpassen!!!
+$ListOU = Import-Csv C:\Users\Administrator\Documents\OU.csv ";" #Pad Aanpassen!!!
 
 
 # Loop through each row containing user details in the CSV file
