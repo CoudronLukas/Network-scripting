@@ -1,5 +1,5 @@
 Name;SamAccountName;GivenName;Surname;DisplayName;AccountPassword;HomeDrive;HomeDirectory;ScriptPath;Path
-Rozemieke;Rozemieke;Rozemieke;Rozemieke;Rozemieke;P@ssw0rd;H:;\\ms\homedirs\%username%;login.bat;OU=Secretariaat,OU=Mijn school,DC=tdc3,DC=DC=intranet,DC=mijnschool,DC=be
+Rozemieke;Rozemieke;Rozemieke;Rozemieke;Rozemieke;P@ssw0rd;H:;\\ms\homedirs\%username%;login.bat;OU=Secretariaat,OU=Mijn school,DC=tdc3,DC=intranet,DC=mijnschool,DC=be
 Annemieke;Annemieke;Annemieke;Annemieke;Annemieke;P@ssw0rd;H:;\\ms\homedirs\%username%;login.bat;OU=Secretariaat,OU=Mijn school,DC=tdc3,DC=intranet,DC=mijnschool,DC=be
 ProfessorGobelijn;ProfessorGobelijn;Professor;Professor;Professor Gobelijn;P@ssw0rd;H:;\\ms\homedirs\%username%;login.bat;OU=Directie,OU=Mijn school,DC=tdc3,DC=intranet,DC=mijnschool,DC=be
 ProfessorZonnebloem;ProfessorZonnebloem;Professor;Professor;Professor Zonnebloem;P@ssw0rd;H:;\\ms\homedirs\%username%;login.bat;OU=Leerkrachten,OU=Mijn school,DC=tdc3,DC=intranet,DC=mijnschool,DC=be
