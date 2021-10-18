@@ -6,18 +6,14 @@ $ListOU = Import-Csv C:\Users\Administrator\Documents\OU.csv ";" #Pad Aanpassen!
 
 # Loop through each row containing user details in the CSV file
 foreach ($OU in $ListOU) {
-    
-	$name = $OU.Name
     $path = $OU.Path
+	$display = $OU.Display
+	$name = $OU.Name
     $desc = $OU.Description
-    $display = $OU.DisplayName
 
     #Account will be created in the OU provided by the $OU variable read from the CSV file
-    New-ADOrganizationalUnit `
-    -Name $name `
-    -path $path `
-    -Description $desc `
-    -DisplayName $display`
+    New-ADOrganizationalUnit -Name $name -path $path -Display $display -Description $desc 
+    
 }
 
 Read-Host -Prompt "Press Enter to exit"
