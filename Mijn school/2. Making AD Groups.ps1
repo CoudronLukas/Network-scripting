@@ -10,7 +10,7 @@ ForEach($Group in $ListGroups){
 	$groupscope = $Group.GroupScope
     # Create AD Group
     Write-Host "Creating Group $name"
-    New-ADGroup -Name "$name" -Description "$desc" -GroupCategory "$groupcategory" -GroupScope "$groupscope" -DisplayName "$displayname" --Path "$path"
+    New-ADGroup -Name "$name" -Description "$desc" -GroupCategory "$groupcategory" -GroupScope "$groupscope" -DisplayName "$displayname" -Path "$path"
 };   
 	# Create AD User
     #Write-Host "Creating User $($Objects.User)"

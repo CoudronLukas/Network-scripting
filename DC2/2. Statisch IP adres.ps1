@@ -4,8 +4,7 @@
 $IP = "192.168.1.3"
 $MaskBits = 24 # This means subnet mask = 255.255.255.0
 $Gateway = "192.168.1.1"
-$Dns = "172.20.0.2"
-$Dns2 = "172.20.0.3"
+$Dns = "192.168.1.2" #DIT MOET VOORLOPIG HET IP ADRES ZIJN VAN DC1
 $IPType = "IPv4"
 # Retrieve the network adapter that you want to configure
 $adapter = Get-NetAdapter | ? {$_.Status -eq "up"}
