@@ -1,4 +1,4 @@
-https://4sysops.com/archives/analyze-dhcp-server-with-powershell/
+#https://4sysops.com/archives/analyze-dhcp-server-with-powershell/
 
 
 $Devices = Get-DhcpServerv4Lease -ScopeId 192.168.1.0

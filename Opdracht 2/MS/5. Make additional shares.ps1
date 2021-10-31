@@ -1,6 +1,6 @@
-https://docs.microsoft.com/en-us/powershell/module/smbshare/new-smbshare?view=windowsserver2019-ps
-https://stackoverflow.com/questions/25779423/powershell-to-set-folder-permissions/52945266
-https://stackoverflow.com/questions/26543127/powershell-setting-advanced-ntfs-permissions
+#https://docs.microsoft.com/en-us/powershell/module/smbshare/new-smbshare?view=windowsserver2019-ps
+#https://stackoverflow.com/questions/25779423/powershell-to-set-folder-permissions/52945266
+#https://stackoverflow.com/questions/26543127/powershell-setting-advanced-ntfs-permissions
 $PC_MS = "WIN01-MS"
 
 #Connecting to Remote PS on MS
