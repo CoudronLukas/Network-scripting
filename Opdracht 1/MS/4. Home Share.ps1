@@ -1,6 +1,7 @@
 #https://blog.netwrix.com/2018/04/18/how-to-manage-file-system-acls-with-powershell-scripts/
 #Run dit op DC1
-$s = New-PSSession -ComputerName "WIN01-MS" -Credential "INTRANET\Administrator" 
+$PC_MS = "WIN01-MS"
+$s = New-PSSession -ComputerName $PC_MS -Credential "INTRANET\Administrator" 
 Invoke-Command -Session $s -ScriptBlock{
 	#variabelen
 	$Share_Name = "Home"

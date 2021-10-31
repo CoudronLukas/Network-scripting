@@ -7,6 +7,23 @@ $ADUsers = Import-Csv C:\Users\Administrator\Documents\user_accounts.csv -Delimi
 # Define UPN
 $UPN = "intranet.mijnschool.be"
 
+#logon.bat 
+$Name = "logon.bat"
+$Path = "\\Dc-1\netlogon\logon.bat"
+
+if (Test-Path $Path){
+    Write-Host "file has already been made"
+} 
+else {
+    #als logon.bat nog niet bestaat
+    New-Item -Path "\\Dc-1\netlogon\" -Name $Name
+
+    #share koppelen door text te inserten in de file
+    "@echo off" | Out-File -FilePath $Path
+    "net use H: \\Win02-MS\Home" | Out-File -FilePath $Path -Append
+}
+
+
 # Loop through each row containing user details in the CSV file
 foreach ($User in $ADUsers) {
 
